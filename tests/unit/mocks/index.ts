@@ -1,7 +1,7 @@
-import Logger from '@diia-inhouse/diia-logger'
-import { HttpService } from '@diia-inhouse/http'
-import { mockClass } from '@diia-inhouse/test'
-import { HttpProtocol } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { HttpService } from '@kant2002-diia-inhouse/http'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { HttpProtocol } from '@kant2002-diia-inhouse/types'
 
 import { StrapiConfig } from '../../../src/interfaces'
 

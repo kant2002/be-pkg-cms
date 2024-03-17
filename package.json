@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/cms",
+    "name": "@kant2002-diia-inhouse/cms",
     "version": "1.4.1",
     "description": "Cms utils",
     "main": "dist/index.js",
@@ -31,19 +31,19 @@
         "qs": "6.11.1"
     },
     "peerDependencies": {
-        "@diia-inhouse/errors": ">=1.0.0",
-        "@diia-inhouse/http": ">=1.0.0",
-        "@diia-inhouse/types": ">=1.0.0"
+        "@kant2002-diia-inhouse/errors": ">=1.0.0",
+        "@kant2002-diia-inhouse/http": ">=1.0.0",
+        "@kant2002-diia-inhouse/types": ">=1.0.0"
     },
     "devDependencies": {
         "@commitlint/cli": "17.4.4",
-        "@diia-inhouse/configs": "1.26.3",
-        "@diia-inhouse/errors": "1.6.1",
-        "@diia-inhouse/eslint-config": "3.4.0",
-        "@diia-inhouse/http": "1.5.1",
-        "@diia-inhouse/types": "4.25.0",
-        "@diia-inhouse/test": "5.1.0",
-        "@diia-inhouse/diia-logger": "2.10.0",
+        "@kant2002-diia-inhouse/configs": "^1.26.3",
+        "@kant2002-diia-inhouse/errors": "^1.6.1",
+        "@kant2002-diia-inhouse/eslint-config": "^3.4.0",
+        "@kant2002-diia-inhouse/http": "^1.5.1",
+        "@kant2002-diia-inhouse/types": ">=4.25.0",
+        "@kant2002-diia-inhouse/test": "^5.1.0",
+        "@kant2002-diia-inhouse/diia-logger": "^2.10.0",
         "@types/node": "20.3.1",
         "@types/qs": "6.9.7",
         "lockfile-lint": "4.10.1",
@@ -51,16 +51,16 @@
         "semantic-release": "21.1.2"
     },
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
         "branches": [
             "main"
         ]
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
     "eslintConfig": {
-        "extends": "@diia-inhouse/eslint-config",
+        "extends": "@kant2002-diia-inhouse/eslint-config",
         "rules": {
             "@typescript-eslint/no-unnecessary-condition": [
                 "off"
@@ -80,11 +80,11 @@
             }
         ]
     },
-    "prettier": "@diia-inhouse/eslint-config/prettier",
+    "prettier": "@kant2002-diia-inhouse/eslint-config/prettier",
     "madge": {
         "tsConfig": "./tsconfig.json"
     },
     "jest": {
-        "preset": "@diia-inhouse/configs/dist/jest"
+        "preset": "@kant2002-diia-inhouse/configs/dist/jest"
     }
 }

@@ -1,4 +1,4 @@
-import { HttpServiceResponseResult } from '@diia-inhouse/http'
+import { HttpServiceResponseResult } from '@kant2002-diia-inhouse/http'
 
 import { CmsService } from '../../../src'
 import { CmsBaseAttributes, CmsCollectionType, CmsEntry, GetListOptions } from '../../../src/interfaces'

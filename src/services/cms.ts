@@ -1,8 +1,8 @@
 import * as qs from 'qs'
 
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
-import { HttpService, HttpServiceResponse } from '@diia-inhouse/http'
-import { HttpStatusCode, Logger } from '@diia-inhouse/types'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { HttpService, HttpServiceResponse } from '@kant2002-diia-inhouse/http'
+import { HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
 
 import { StrapiConfig } from '../interfaces'
 import { CmsBaseAttributes, CmsCollectionType, CmsEntries, GetListOptions, ListResponse } from '../interfaces/cms'
